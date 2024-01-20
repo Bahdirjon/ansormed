@@ -1,0 +1,379 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.contianer{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+header{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 24px;
+}
+.header-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.header-logo_text {
+    padding-left: 16px;
+    padding-top: 10px;
+}
+.header-menu {
+    
+}
+.menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 32px;
+    color: #222;
+    
+}
+.xizmatlar {
+}
+.header-menu-wrap{
+    color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 114px;
+}
+.btn{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 6px;
+    
+    
+}
+.btn button{
+    border-radius: 8px;
+    
+    padding: 14px 24px;
+    border:none;
+    background: #DE2E54;
+}
+.btn-text{
+    color: white;
+}
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+.hero {
+
+
+    display: -webkit-box;
+
+
+    display: -ms-flexbox;
+
+
+    display: flex;
+    background: #0EB4C1;
+}
+.hero-left {
+    max-width: 500px;
+    margin: 0 auto;
+   padding-top: 120px;
+   color:  #FFFFFF;
+}
+.hero-left_titel {
+    font-family: Open Sans Condensed;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.hero-left_text {
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+padding-top: 16px;
+padding-bottom: 36px;
+
+}
+.btn2 {
+}
+.btn2 button{
+    padding: 14px 24px;
+    border-radius: 5px;
+    border:none;
+ background: #DE2E54;
+ color: #FFFFFF;
+}
+.hero-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 29px;
+    max-width: 423px;
+    margin: 0 auto;
+}
+.services {
+    max-width: 864px;
+    margin: 0 auto;
+}
+.services-titel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 120px;
+    
+}
+.Hijama {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap: 64px;
+    
+}
+.Hijama-left {
+}
+.Hijama-right {
+    
+}
+.Hijama-right_titel {
+    padding-bottom: 24px;
+}
+.Hijama-right_text {
+color: #444444;
+
+}
+.Manualterapiya {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 64px;
+    
+    padding-top: 56px;
+}
+.Manualterapiya-left {
+}
+.Manualterapiya-right {
+    
+}
+.Manualterapiya-right_titel {
+    padding-bottom: 24px;
+}
+.Manualterapiya-right_text {
+    color: #444444;
+}
+.zulik {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 64px;
+    padding-top: 56px;
+}
+.zulik-left {
+}
+.zulik-right {
+
+}
+.zulik-right_titel {
+    padding-bottom: 24px;
+}
+.zulik-right_text {
+    color: #444444;
+}
+.tabiy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 64px;
+    padding-top: 56px;
+}
+.tabiy-left {
+}
+.tabiy-right {
+}
+.tabiy-right_titel {
+    padding-bottom: 24px;
+}
+.tabiy-right_text {
+    color: #444444;
+}
+.btn3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 73px;
+    padding-bottom: 120px;
+}
+.btn3 button{
+    width:189px;
+    height:47px;
+    top: 1950px;
+    left: 626px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 5px;
+    border: 2px;
+    background: #DE2E54;
+    color: #FFFFFF;
+
+    
+}
+.Signup {
+    background: #0EB4C1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.singup-titel{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    color: #FFFFFF;
+}
+
+
+.btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #0EB4C1;
+    padding-top: 40px;
+    gap: 40px;
+}
+.btns button{
+    border-radius: 5px;
+ background: #0EB4C1;
+ border-color: white;
+ border-style: double;
+ width:194px;
+height: 42px;
+top: 2264px
+}
+.btns1{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.btns2{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+footer{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    background: #222222;
+}
+.site-end{
+    max-width: 1100px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+.footer-logo {
+    gap: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer-logo_text {
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 32px;
+    padding-top: 10px;
+    color: #222;
+}
+.footer-end{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 32px;
+    color: #FFFFFF;
+}
